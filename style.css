@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+}
+ #banner{
+    padding: 100px;
+    height: 100vh;
+    background-color: #f4f4f4;
+    background: url(../../image/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+}
+.banner-content{
+    width: 50%;
+    float: left;
+    margin-top: 130px;
+
+}
+.banner-content h2{
+    font-size: 30px;
+    font-weight: 100;
+}
+.banner-content h3.name{
+    font-size: 30px;
+    color: rgb(233,9,57);
+    margin-top: 20px;
+}
+.banner-content p {
+    margin-top: 30px;
+    color: gray;
+    
+}
+.banner-image{
+    width: 50%;
+    float: left; 
+}
+.banner-image img{
+    width: 95%;
+}
+.banner-content .btn{
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background: linear-gradient(red,tomato,pink);
+    color: #ffff;
+    font-size: 18px;
+    border-radius: 5px;
+}
+#biography{
+    padding: 100px;
+    height: 100vh;
+    background:url(../../image/biography-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.bio-image{
+    width: 50%;
+    float: left;
+    
+
+}
+.bio-image img{
+    width: 78%;
+}
+.bio-content{
+    width: 50%;
+    float: left;
+    margin-top: 130px;
+
+}
+.bio-content h2{
+    margin-left: 100px ;
+    font-size: 30px;
+}
+.bio-content p{
+    margin-left: 100px;
+    margin-top: 30px;
+    color: gray;
+    text-align: justify;
+
+}
+.bio-content .btn{
+    margin-left: 100px;
+    border: none;
+    padding: 10px 20px;
+    background: linear-gradient(tomato,red);
+    color: #ffff;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+#work{
+    padding: 100px;
+    height: 100vh;
+    background:url(../../image/latest-work-bg.png) ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.work-content{
+    text-align: center;
+    margin-top: 10px;
+}
+.work-content h2{
+    font-size: 30px;
+}
+.work-image{
+    width: 100%;
+    margin-top: 70px;
+
+}
+.work-image img{
+    width: 30%;
+    float: left;
+    margin: 5px;
+    border: none;
+    padding: 2px 10px;
+}
+#client{
+    padding: 100px;
+    height: 100vh;
+    background:url(../../image/footer-bg.png) ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.content{
+    text-align: center;
+
+}
+.content h2{
+    margin: 20px;
+    font-size: 40px;
+    padding: 5px;
+    
+}
+.content h3{
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+}
+.content p.des{
+    margin: 2px;
+    padding: 2px;
+    font-size: 15px;
+    color: gray;
+}
+.content p{
+    margin:20px 300px;
+    padding: 30px;
+    color: gray;
+}
+.content .btn{
+    border: none;
+    padding: 20px 50px;
+    background: linear-gradient(tomato,red);
+    color: #ffff;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 50px;
+
+}
